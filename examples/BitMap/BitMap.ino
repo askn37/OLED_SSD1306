@@ -15,20 +15,20 @@
 OLED_M091P oled;
 
 void setup (void) {
-	oled.begin();
+    oled.begin();
 }
 
 volatile uint8_t bits[16];
 volatile uint8_t count = 0;
 void loop (void) {
-	for (int k = 0; k < 4; k++) {
-		oled.setCursor(0, k);
-		for (int j = 0; j < 16; j++) {
-			for (int i = 0; i < 16; i++) bits[i] = count++;
-			oled.rawWrite(bits);
-		}
-	}
-	oled.vOffset(0x3F & count++);
+    for (int k = 0; k < 4; k++) {
+        oled.setCursor(0, k);
+        for (int j = 0; j < 16; j++) {
+            for (int i = 0; i < 16; i++) bits[i] = count++;
+            oled.rawWrite(bits);
+        }
+    }
+    oled.vOffset(0x3F & count++);
 }
 
 // end of code
