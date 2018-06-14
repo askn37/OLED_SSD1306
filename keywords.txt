@@ -1,0 +1,38 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OLED_SSD1306	KEYWORD1
+OLED_M096P	KEYWORD1
+OLED_M091P	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setClock	KEYWORD2
+clear	KEYWORD2
+newLine	KEYWORD2
+write	KEYWORD2
+rawRite	KEYWORD2
+setOffsetMap	KEYWORD2
+setCursor	KEYWORD2
+moveCursor	KEYWORD2
+setContrust	KEYWORD2
+sleep	KEYWORD2
+invert	KEYWORD2
+mirror	KEYWORD2
+flip	KEYWORD2
+isSleep	KEYWORD2
+vOffset	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SSD1306_ADDR	LITERAL1
+I2C_SPEED_STANDARD	LITERAL1
+I2C_SPEED_DOUBLE	LITERAL1
+I2C_SPEED_FAST	LITERAL1
+
