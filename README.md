@@ -1,6 +1,6 @@
 # OLED_SSD1306
 
-OLED : SOLOMON SYSTECH SSD1306 (I2C) small  driver for Arduino
+OLED : SOLOMON SYSTECH SSD1306 (I2C) small driver for Arduino
 
 I2C接続の OLEDをキャラクタLCD ライクに使用するための軽量実装。
 
